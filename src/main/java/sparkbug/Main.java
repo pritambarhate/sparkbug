@@ -4,8 +4,6 @@ import spark.Spark;
 
 public class Main implements spark.servlet.SparkApplication {
 
-	public static final String APPLICATION_JSON = "application/json";
-
 	public void init() {
 		
 		enableGZip();
